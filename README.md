@@ -8,4 +8,4 @@ Open a Pull Request to your team branch (ex. branch name: <code>team-a</code>). 
 
 At the end of the semester during project wrap up open a final Pull Request to <code>dev</code> from your team branch. 
 
-Full instructions on how to make a PR to a Spark! Repo [here](https://github.com/BU-Spark/CS-506-TEMPLATE-base-repo.git)
+Full instructions on how to make a PR to a Spark! Repo [here](https://docs.google.com/document/d/1t8vDdMyV3RHuXNxIL4DDs7gXV1c89G1T6Xi69UGilS0/edit?usp=sharing)
