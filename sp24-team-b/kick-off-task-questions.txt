@@ -1,0 +1,28 @@
+1) What is the project focus/overall goal? 
+- The focus of this project is to conduct a comprehensive analysis of animal complaints reported through the City of Boston's 311 app. The overall goal is to produce a detailed report on the number of complaints, types of animals involved, geographic distribution of these complaints, and any trends related to seasonality or weather conditions. This report aims to provide insights into the nature and patterns of animal complaints in Boston, which can inform city management and policy decisions regarding animal control and public safety.
+
+2) Why is this project important?
+- Public Health and Safety: Understanding the nature and distribution of animal complaints can help address potential public health and safety issues, such as aggressive animals. 
+- Resource Allocation: Insights from the report can guide the city in allocating resources more effectively for animal control efforts. 
+- Policy Development: The findings may highlight areas for policy improvement or the need for new regulations to manage animal-related issues better.
+- Community Engagement: Analyzing and addressing these complaints shows the city's responsiveness to citizen concerns, thereby improving community trust and engagement.
+
+3) What type of data will you collect or be analyzing? 
+- 311 archive: Historical data of all 311 reports filed, focusing on those specifically related to animal complaints.
+Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CVKM87
+- 311 Data Dictionary: Explains the structure, types, and meanings of data within the 311 datasets.
+Link: https://data.boston.gov/dataset/311-service-requests/resource/b237f352-49d1-4423-804f-b478e4f24e61
+- 311 Service Requests - Datasets - Analyze Boston - Detailed information on each animal complaint report, such as the type of animal, location, date and time of the report, and any additional details provided by the complainant.
+Link: https://data.boston.gov/dataset/311-service-requests
+
+4) What are potential limitations of the project? 
+- Data Quality: Incomplete or inaccurate data entries may affect the analysis's reliability.
+- Geographic Limitations: There may be challenges in accurately mapping complaints to specific locations if the data lacks precise geographic coordinates.
+
+5) What are your next steps? Divide tasks amongst the team
+- Our next steps involve working towards completing our preliminary insights. This includes dividing up tasks amongst the team to do the following:
+* Identifying all necessary data sources for the project and ensuring access to these sources
+* Performing data cleaning and data transformation techniques on a preliminary batch of data 
+* Carefully documenting our preprocessing progress
+
+
