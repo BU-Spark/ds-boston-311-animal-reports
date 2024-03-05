@@ -1,3 +1,7 @@
-Add your name to the team info page!
+# Preliminary Analysis
 
-At the end of the semester update this README with information on how to run your project. 
+Our preliminary knowledge of the dataset is contained in both ```all_years_EDA.ipynb``` and ```preliminary_analysis/preliminary_analysis.ipynb```.
+
+# Team Repo Todo
+
+- Add names to team info page
