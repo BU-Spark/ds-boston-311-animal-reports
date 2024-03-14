@@ -14,10 +14,12 @@ def non_empty_animal_reports(filepath):
     df.to_csv(f'animal_only.csv', index=False)
     print(df)
 
+non_empty_animal_reports("data/reports_with_date_and_animal.csv")
 
 def create_animal_frequency_to_hourly_csv(filepath):
     df = pd.read_csv(filepath, dtype=object)
-    pass
+    time_and_animal_df = df[['a', 'e']]
+    time_and_animal_df.to_csv(f'time_and_animal_df.csv', index=False)
 
 
-# create_heat_map('dog_lat_long.csv' , 'dog_heatmap.html')
+#create_animal_frequency_to_hourly_csv("data/animal_only.csv")
