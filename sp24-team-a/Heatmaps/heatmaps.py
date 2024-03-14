@@ -3,7 +3,6 @@ from folium.plugins import HeatMap
 import folium
 import pandas as pd
 
-
 def create_heat_map(filepath, output):
     map_hooray = folium.Map(location=[42.3601, -71.0589], zoom_start=13) 
 
@@ -26,6 +25,7 @@ def create_heat_map(filepath, output):
     # Display the map
     map_hooray.save(output)
 
+create_heat_map('dog_lat_long.csv' , 'dog_heatmap.html')
 create_heat_map('cat_lat_long.csv' , 'cat_heatmap.html')
 create_heat_map('bird_lat_long.csv' , 'bird_heatmap.html')
 create_heat_map('bat_lat_long.csv' , 'bat_heatmap.html')
