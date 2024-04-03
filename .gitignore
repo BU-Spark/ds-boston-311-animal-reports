@@ -171,3 +171,5 @@ $RECYCLE.BIN/
 
 # team D
 sp24-team-d/data/*
+sp24-team-d/Datasets/*
+sp24-team-d/**/*.html
