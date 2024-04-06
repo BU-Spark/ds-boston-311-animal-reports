@@ -2,10 +2,10 @@ import pandas as pd
 from collections import defaultdict
 
 animals = [animal.lower() for animal in ['chameleon', 'beagle', 'snake', 'quail', 'skunk', 'nightingale', 
-    'beaver', 'frog', 'feral cat', 'hamster', 'fox', 'dog', 'chihuahua', 'rat', 'duck', 'seagull', 
-    'turtle', 'mice', 'mouse', 'wasp', 'dragon', 'lizard', 'robin', 'rabbit', 'pigeon', 'owl', 
+    'beaver', 'frog', 'feral cat', 'hamster', 'fox', 'dog', 'chihuahua', 'duck', 'seagull', 
+    'turtle', 'wasp', 'dragon', 'lizard', 'robin', 'rabbit', 'pigeon', 'owl', 
     'bat', 'hawk', 'seal', 'turkey', 'guinea pig', 'pig', 'goose', 'kitten', 
-    'pike', 'bee', 'horse', 'possum', 'stray dog', 'parrot', 'fish', 'raccoon', 
+    'bee', 'horse', 'possum', 'stray dog', 'parrot', 'fish', 'raccoon', 
     'coyote', 'falcon', 'ferret', 'chicken', 'goat', 'bird', 'peacock', 'wolf', 'swan', 'cat', 'opossum', 
     'crow', 'squirrel', 'deer', 'snake', 'chipmunk', 'alligator', 'cockroach', 'sparrow', 
     'eagle', 'turtle', 'bed bug']]
@@ -16,8 +16,7 @@ animal_group_mapping = {
     'beagle': 'dog',
     'chihuahua': 'dog',
     'kitten': 'cat',
-    'feral cat': 'cat',
-    'mice' : 'mouse'
+    'feral cat': 'cat'
 }
 def get_primary_category(animal):
     return animal_group_mapping.get(animal, animal)
