@@ -174,3 +174,4 @@ sp24-team-d/data/*
 sp24-team-d/Datasets/Analyze Boston
 sp24-team-d/Datasets/*.zip
 sp24-team-d/**/*.html
+**/*.ipynb_checkpoints
