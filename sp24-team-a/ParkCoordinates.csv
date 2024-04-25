@@ -1,9 +1,23 @@
-Park Name;Latitude ;Longitude;;;;
-Franklin Park;42,3026;-71,0864;;;;
-Arnold Arboretum;42,2971;-71,1219;;;;
-Larz Anderson Park;42,3013;-71,1449;;;;
-Charles River Esplanade;42,3615;-71,0707;;;;
-Boston Common;42,3551;-71,0656;;;;
-Danehy Park;42,3832;-71,1337;;;;
-Dorchester Park;42,2919;-71,0653;;;;
-Cambridge Common;42,3736;-71,1188;;;;
+Park Name,Latitude,Longitude
+Franklin Park,42.3028,-71.0877
+Arnold Arboretum,42.3167,-71.0833
+Larz Anderson,42.3120,-71.1361
+Esplanade,42.3562,-71.0760
+Boston Common,42.3551,-71.0657
+Dorchester Park,42.2772,-71.0634
+Rose Garden,42.3423,-71.0935
+Fitzgerald Park,42.332317,-71.102889
+Ramsay Park,42.334638,-71.080979
+Roxbury State Park,42.330626,-71.090126
+Peters Dog Park,42.343043,-71.067725
+Waterfront Park,42.360717,-71.052036
+Langone Park,42.368520,-71.056273
+Allandale Woods,42.298562,-71.136118
+Millennium Park,42.281686,-71.182684
+Pope John Paul II Park,42.282187,-71.043942
+Carson Beach,42.325701,-71.049778
+Malcolm X Park,42.320872,-71.089038
+Post Office Square,42.356222,-71.055907
+Amory Playground,42.345819,-71.113103
+Riveryway,42.341586,-71.108414
+

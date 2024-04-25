@@ -59,9 +59,32 @@ def create_heat_map(filepath, output):
 
     map_hooray.save(output)
 
-create_heat_map('Heatmaps/dog_reports_2023.csv' , 'Heatmaps/dog_2023_heatmap.html')
-create_heat_map('Heatmaps/dog_reports_2022.csv' , 'Heatmaps/dog_2022_heatmap.html')
-create_heat_map('Heatmaps/dog_reports_2021.csv' , 'Heatmaps/dog_2021_heatmap.html')
-create_heat_map('Heatmaps/dog_reports_2020.csv' , 'Heatmaps/dog_2020_heatmap.html')
-create_heat_map('Heatmaps/dog_reports_2019.csv' , 'Heatmaps/dog_2019_heatmap.html')
+for i in range(2014, 2024):
+    filepath = f'{i}_reports.csv'
+    create_heat_map(filename, f'Heatmaps/{i}_heatmap.html')
+
+
+# create_heat_map('Heatmaps/dog_reports_2023.csv' , 'Heatmaps/dog_2023_heatmap.html')
+# create_heat_map('Heatmaps/dog_reports_2022.csv' , 'Heatmaps/dog_2022_heatmap.html')
+# create_heat_map('Heatmaps/dog_reports_2021.csv' , 'Heatmaps/dog_2021_heatmap.html')
+# create_heat_map('Heatmaps/dog_reports_2020.csv' , 'Heatmaps/dog_2020_heatmap.html')
+# create_heat_map('Heatmaps/dog_reports_2019.csv' , 'Heatmaps/dog_2019_heatmap.html')
+
+def generate_yearly_datasets(filename, year):
+    df = pd.read_csv(filename)
+
+    # Convert open_dt to datetime
+    df['open_dt'] = pd.to_datetime(df['open_dt'])
+
+    # Filter rows where the year of open_dt is 2014
+    df_year = df[df['open_dt'].dt.year == year]
+
+    # Display the filtered DataFrame
+
+    df_year.to_csv(f'Heatmaps/{year}_reports.csv', index=False)
+
+
+# for i in range(2014, 2024):
+#     generate_yearly_datasets('data/FullAnimalReports.csv' , i)
+
 
