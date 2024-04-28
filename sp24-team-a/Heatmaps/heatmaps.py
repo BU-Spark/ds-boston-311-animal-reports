@@ -60,8 +60,8 @@ def create_heat_map(filepath, output):
     map_hooray.save(output)
 
 for i in range(2014, 2024):
-    filepath = f'{i}_reports.csv'
-    create_heat_map(filename, f'Heatmaps/{i}_heatmap.html')
+    filepath = f'Heatmaps/Annual Datasets/{i}_reports.csv'
+    create_heat_map(filepath, f'Heatmaps/{i}_heatmap.html')
 
 
 # create_heat_map('Heatmaps/dog_reports_2023.csv' , 'Heatmaps/dog_2023_heatmap.html')

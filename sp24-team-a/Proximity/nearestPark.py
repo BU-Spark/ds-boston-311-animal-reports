@@ -51,9 +51,9 @@ def generate_nearest_park_to_report(animal_data, parks_data):
 
     animal_reports_data.to_csv('animal_reports_nearest_park.csv', index=False)
 
-animal_data = 'data/animal_only.csv'
-park_data = 'ParkCoordinates.csv'
-generate_nearest_park_to_report(animal_data, park_data)
+# animal_data = 'data/animal_only.csv'
+# park_data = 'ParkCoordinates.csv'
+# generate_nearest_park_to_report(animal_data, park_data)
 
 
 def calculate_distance_between_report_to_nearest_park(animal_data, park_data):
@@ -80,9 +80,9 @@ def calculate_distance_between_report_to_nearest_park(animal_data, park_data):
 
     animal_reports_data.to_csv('animal_reports_nearest_park_and_distance.csv', index=False)
 
-animal_data = 'animal_reports_nearest_park.csv'
-park_data = 'ParkCoordinates.csv'
-calculate_distance_between_report_to_nearest_park(animal_data, park_data)
+# animal_data = 'animal_reports_nearest_park.csv'
+# park_data = 'ParkCoordinates.csv'
+# calculate_distance_between_report_to_nearest_park(animal_data, park_data)
 
 
 def population(filename, population_map):
@@ -102,9 +102,9 @@ def population(filename, population_map):
     merged_df.to_csv('animal_reports_population.csv', index=False)
     return merged_df.head()
 
-filename = ('animal_reports_nearest_park_and_distance.csv')
-population_map = ('BostonPopulationData.csv.csv')
-population(filename, population_map)
+# filename = ('animal_reports_nearest_park_and_distance.csv')
+# population_map = ('BostonPopulationData.csv.csv')
+# population(filename, population_map)
 
 
 # Function to create a bar chart showing the count of total reprots reported near park when the distance to the nearest park is less or equal to 0.25 miles
@@ -122,8 +122,8 @@ def number_of_animal_reports_by_park(filename):
     plt.ylabel('Number of Reports')
     plt.show() 
 
-#filename = "animal_reports_population.csv"
-#number_of_animal_reports_by_park(filename)
+filename = "MLModel/animal_reports_population.csv"
+number_of_animal_reports_by_park(filename)
 
 # Function to create a stacked bar chart showing the count of different animals reported near park when the distance to the nearest park is less or equal to 0.25 miles
 import pandas as pd
