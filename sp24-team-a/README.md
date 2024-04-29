@@ -32,6 +32,21 @@ Objective: Delve deeper into the data to uncover nuanced insights that address c
 <br>
 
 ## Respository Navigation
+ - The AnimalReportsCoordinates folder contains CSV files with geographical coordinates for animal complaints in Boston, categorized by animal type such as bats, birds, cats, dogs, and raccoons. Each file includes data specifying the animal type and the corresponding latitude and longitude of reported locations.
+ - The Heatmaps folder features datasets and scripts essential for generating visualizations of animal complaints across Boston.
+   Animal Datasets: CSV files detailing coordinates and timestamps for complaints related to different animals.
+   Animal Heatmaps: HTML files with interactive heat maps displaying complaint hotspots by animal type and specific years.
+   Annual Datasets: Yearly comprehensive datasets from 2014 to 2023.
+   Annual Heatmaps: HTML files for each year from 2014 to 2023, showcasing the geographic distribution of complaints annually.
+   heatmaps.py contains Python code to produce and manage heatmaps using Folium, facilitating spatial and temporal analysis.
+ - The MLModel folder hosts machine learning models and supporting datasets focused on predicting and analyzing trends in animal complaints within Boston. Key components include:
+   Utilize SARIMAX and other predictive models to forecast complaint trends and analyze data by animal type.
+   Data & Visual Output: Contain historical animal complaint data and geographical information, and includes visualizations to represent data insights, particularly regarding the proximity of animal complaints to parks.
+ - The Maps folder contains interactive HTML maps for visualizing animal complaints in Boston by type, such as bats, birds, cats, dogs, and raccoons. Each map provides dynamic views of complaint distributions across the city.
+ - The Plot folder contains a variety of visualizations that illustrate different aspects of animal complaint data in Boston.These visualizations cover temporal patterns (daily, monthly, yearly), geographic distributions (by zip code and neighborhood), and detailed statistical analysis.
+ - The Proximity folder contains Python scripts and visual outputs that analyze the spatial relationships between animal complaint reports and their proximity to parks in Boston. Python scripts for analyzing animal distribution across neighborhoods and calculating distances to nearby parks.
+ - The Stacked Bar Charts for Animal Reports for Each Season includes detailed visualizations and scripts that analyze the frequency of animal reports by time of day across different seasons.
+ - The Data folder serves as the comprehensive source for all datasets used in analysis of animal complaints in Boston.
 <br>
 
 ## Running The Project
