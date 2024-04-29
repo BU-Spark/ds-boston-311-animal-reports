@@ -69,21 +69,34 @@ import calendar  # For getting month names
 
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read the CSV file
 df = pd.read_csv("data/animal_only.csv")
+
 # Count occurrences of each animal in the 'Animal' column
 animal_counts = df['Animal'].value_counts()
 
-# Create a bar plot
-# Count occurrences of each animal in the 'Animal' column and ensure they're sorted in descending order
-animal_counts_sorted = animal_counts.sort_values(ascending=False)
+# Separate top 10 animals and the rest
+top_10_animals = animal_counts[:10]
+rest_of_animals = animal_counts[10:]
 
-# Create a bar plot with the sorted data
+# Combine the rest into "Other"
+other_count = rest_of_animals.sum()
+other_series = pd.Series({"Other": other_count})
+
+# Concatenate the top 10 animals with the "Other" category
+animal_counts_modified = pd.concat([top_10_animals, other_series])
+
+# Create a bar plot with the top 10 animals and the "Other" category
 plt.figure(figsize=(10, 6))
-animal_counts_sorted.plot(kind='bar', color='skyblue', alpha=0.7)
-plt.title("Number of Reports by Animal Type (Descending Order)")
+animal_counts_modified.plot(kind='bar', color='skyblue', alpha=0.7)
+plt.title("Number of Reports by Animal Type (Top 10 + Other)")
 plt.xlabel("Animal")
 plt.ylabel("Number of Reports")
 plt.xticks(rotation=45, ha='right')
-plt.savefig("Plots/animal_frequency.png")
+plt.savefig("Plots/animal_frequency_top10_other.png")  # Save the plot
 plt.show()  # Display the plot
+
 
