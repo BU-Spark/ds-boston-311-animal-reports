@@ -46,7 +46,8 @@ Objective: Delve deeper into the data to uncover nuanced insights that address c
  - The Plot folder contains a variety of visualizations that illustrate different aspects of animal complaint data in Boston.These visualizations cover temporal patterns (daily, monthly, yearly), geographic distributions (by zip code and neighborhood), and detailed statistical analysis.
  - The Proximity folder contains Python scripts and visual outputs that analyze the spatial relationships between animal complaint reports and their proximity to parks in Boston. Python scripts for analyzing animal distribution across neighborhoods and calculating distances to nearby parks.
  - The Stacked Bar Charts for Animal Reports for Each Season includes detailed visualizations and scripts that analyze the frequency of animal reports by time of day across different seasons.
- - The Data folder serves as the comprehensive source for all datasets used in analysis of animal complaints in Boston.
+ - The Data folder serves as the comprehensive source for all datasets used in analysis of animal complaints in Boston. Contains Comprehensive Animal Report Records which provides extensive data from 2013 onwards, enabling detailed historical analysis of animal complaint trends and patterns.Geographical and Temporal report which includes datasets that link animal reports with time stamps and geographic locations, such as proximity to parks, which are crucial for spatial and temporal analyses.Demographic Correlations includes features data that combines animal report information with Boston's population statistics, useful for assessing how demographic factors influence animal complaints.
+
 <br>
 
 ## Running The Project
