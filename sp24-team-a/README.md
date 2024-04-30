@@ -52,6 +52,8 @@ We conducted a comprehensive analysis of animal complaint data from Boston's 311
    
  - The **Data** folder is the central repository for all datasets used in the project, including comprehensive records of animal complaints, population data, and other relevant information. This folder supports all analytical and modeling tasks by providing the raw and processed data necessary for various analyses.
 
+ - The files in the repository are various and support the analysis, visualization, and reporting of animal complaint data in Boston. Important file 311_Animal_Reports_Team_A.ipynb performs detailed data processing and creates visual representations, helping to uncover trends and patterns in animal-related incidents. PDF files provide formal reports and presentation slides that summarize findings. Additional Python scripts and pictures focus on specific analyses like neighborhood distributions and proximity to parks, enhancing the spatial factors in animal complaints. 
+
 <br>
 
 ## Running The Project
