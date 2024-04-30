@@ -57,4 +57,5 @@ We conducted a comprehensive analysis of animal complaint data from Boston's 311
 <br>
 
 ## Running The Project
-<br>
+
+To get started with this project, make sure you have Python installed, and install required dependencies such as pandas, numpy, matplotlib, folium, and statsmodels by running pip install in command line. Open the project in a Jupyter Notebook environment to access and execute the analysis notebooks. When running Python scripts from terminal to process data or generate visualizations, ensure that you check which CSV files are needed as input and place them in the same directory; these dependencies are detailed in the repository navigation part. Additionally, you can view the interactive maps and other visual outputs by opening the HTML files in any web browser. This setup will allow you to replicate our analysis, explore the data further, or even build upon the existing framework with new data or methodologies. Thank you for your interest in viewing our work.
