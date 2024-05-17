@@ -168,3 +168,10 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+# team D
+sp24-team-d/data/*
+sp24-team-d/Datasets/Analyze Boston
+sp24-team-d/Datasets/*.zip
+# sp24-team-d/**/*.html
+**/*.ipynb_checkpoints
